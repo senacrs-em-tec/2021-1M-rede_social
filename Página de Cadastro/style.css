@@ -1,0 +1,15 @@
+body{
+    font-family: cursive;
+    color: black;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: darkgrey;
+}
+body h2{
+    margin-left: 250px;
+}
+.dark{
+    background-color: black;
+    color: darkgrey;
+}

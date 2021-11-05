@@ -1,0 +1,361 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+header {
+    height: 50px;
+    background-color: white;
+    align-items: center;
+    border: 1px solid black;
+}
+
+header div svg {
+    float: left;
+}
+
+header div h1 {
+    font-size: 30px;
+    width: 300px;
+    float: left;
+}
+
+nav {
+    display: none;
+}
+
+header form input {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgb(220,220, 220);
+    font-family: serif;
+    float: left;
+}
+
+header div img {
+    border-radius:20px;
+    margin-top: 5px;
+}
+
+#perfil {
+    float: left;
+}
+
+.container {
+    margin: 0px;
+}
+
+@media (min-width: 0px)
+{
+    .container{
+        max-width: 100%;
+    }
+    .esconder{
+        display: none;
+    }
+    #pesquisa{
+        width: 120px;
+    }
+    #diminuir div .publica{
+        width: 100%;
+        height: 50%;
+    }
+    #diminuir div {
+        height: 40%;
+        width: 90%;
+    }
+}
+@media (max-width:576px)
+{
+    #diminuir{
+        margin-left: 1%;
+    }
+}
+
+@media (min-width: 576px)
+{
+    .esconder{
+        display: none;
+    }
+    #pesquisa{
+        width: 170px;
+    }
+    #diminuir div .publica{
+        width: 100%;
+        height: 50%;
+    }
+    #diminuir div {
+        height: 40%;
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .esconder{
+        display: none;
+    }
+    #pesquisa{
+        width: 220px;
+    }
+    #diminuir div .publica{
+        width: 100%;
+        height: 50%;
+    }
+    #diminuir div {
+        height: 40%;
+        width: 90%;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .esconder{
+        display: none;
+    }
+    #pesquisa{
+        width: 260px;
+    }
+    #diminuir div .publica{
+        width: 100%;
+        height: 50%;
+    }
+    #diminuir div {
+        height: 40%;
+        width: 90%;
+    }
+    #diminuir {
+        margin-left: 20%;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .esconder, #esconder{
+        display: block;
+    }
+    #pesquisa{
+        width: 300px;
+    }
+    #pesquisa{
+        width: 300px;
+    }
+    #diminuir {
+        width: 500px;
+        margin-left: 7%;
+    }
+    #diminuir div .publica{
+        width: 100%;
+        height: 50%;
+    }
+    #diminuir div {
+        height: 40%;
+        width: 100%;
+    }
+    nav svg {
+        display: none;
+    }
+}
+@media (min-width: 1300px)
+{
+    #diminuir{
+        margin-left: 9%;
+    }
+}
+@media (min-width: 1400px)
+{
+    #diminuir{
+        margin-left: 11%;
+    }
+}
+@media (min-width: 1500px)
+{
+    #diminuir{
+        margin-left: 13%;
+    }
+}
+@media (min-width: 1600px)
+{
+    #diminuir{
+        margin-left: 15%;
+    }
+}
+nav {
+    display: block;
+}
+nav svg:last-child {
+    float: right;
+    background-color: white;
+    border: 1px solid black;
+        
+}
+nav svg:first-child {
+    float: left;
+    background-color: white;
+    border: 1px solid black;
+    border-top: 0;
+}
+
+aside {
+    width:300px;
+    height: 100%;
+    border: 1px solid black;
+    border-top: 0px;
+    background-color: white;
+    margin: 0px;
+    float: left;
+}
+
+aside h1 {
+    text-align: center;
+    padding-right: 40px;
+    border-bottom: 1px solid black;
+    margin-bottom: 0px;
+}
+
+aside div{
+    border-bottom: 1px solid black;
+    height: 60px;
+}
+
+aside div img {
+    margin-top: 5px;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+aside div h2 {
+    font-size: 22px;
+    float: left;
+    padding-left: 12px;
+}
+
+aside div p {
+    overflow: hidden;
+    float: left;
+    width: 220px;
+    height: 25px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+section {
+    width:300px;
+    height: 100%;
+    border: 1px solid black;
+    border-top: 0px;
+    background-color: white;
+    margin: 0px;
+    float: right;
+}
+
+section h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 0px;
+}
+
+section div {
+    border-bottom: 1px solid black;
+    height: 60px;
+}
+
+section div img {
+    margin-top: 5px;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+section div h2 {
+    font-size: 22px;
+    float: left;
+    padding-left: 12px;
+}
+
+section div p {
+    float: left;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+section div svg {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 15px;
+}
+
+section div button {
+    border: 1px solid black;
+    margin-left: 90px;
+    margin-top: 12px;
+    border-radius: 7px;
+}
+
+.darkmode {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.darkmode-border{
+    border-color:  white;
+}
+.semi-darkmode{
+    background-color: rgb(30, 30, 30);
+}
+.fill{
+    fill: white;
+}
+article {
+    width: 600px;
+    float: left;
+}
+
+article div{
+    margin-top: 50px;
+    background-color: white;
+    height: 720px;
+}
+
+article div img.perfil{
+    margin-top: 5px;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    float: left;
+    background-color: white;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+article div img {
+    width: 600px;
+    height: 600px;
+}
+
+article div h1 {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+article div svg {
+    margin-top: 10px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+article div .message {
+    float: right;
+    margin-top: 0;
+}
